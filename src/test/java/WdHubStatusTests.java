@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.*;
 
 public class WdHubStatusTests extends TestBase {
     @Test
-    public void authorizationWithValidCredentialsRequestTest() {
+    public void authorizationWithValidCredentialsTest() {
         given()
                 .log().all()
                 .auth().basic("user1", "1234")
